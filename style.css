@@ -1,0 +1,49 @@
+#menu ul{
+    background-color: blue;
+    position: relative;
+    list-style-type: none;
+    text-align:center;
+}
+#menu ul li{
+    display: inline-table;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}
+#menu ul li a{
+    display: block;
+    
+    
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0;
+}
+#menu ul li a:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    background-color: cornsilk;
+}
+#menu ul li > .sub-menu{
+    display:none;
+    position: absolute;
+    padding:0px;
+}
+#menu ul li:hover .sub-menu{
+    display:block;
+}    
+#menu ul li:hover .sub-menu li{
+    display:block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    left:0px;
+} 
+
+#menu ul li .sub-menu2{
+    display:none;
+    left:150px;
+    top:-50px;
+    position:absolute;
+}
